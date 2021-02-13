@@ -2,6 +2,7 @@ body{
     background-color: gray;
 }
 
+/*formats the primary header of the page*/
 h1{ 
     font-family: verdana;
     color: black;
@@ -14,17 +15,27 @@ h1{
 p{
     font-family: verdana;
 }
+
+/*uses class name p1 to distunguish these formatting instructions from the instructions for class p*/
 .p1{
     font-family: verdana;
     text-align: center;
 }
 
+/*formatting for all h2 headers that indicate the Sprint the assigment was completed in*/
 h2{
-    font-family: verdana;
+    font-size: 200%;
+    font-family: verdana; 
+    padding-left: 20px;
     color: black;
     background-color: blueviolet;
 }
 
+li{
+    font-family: verdana;
+}
+
+/*appropriately resizes and places my photo on the page*/
 .photo{
     padding-top: 10px;
     padding-bottom: 10px;
